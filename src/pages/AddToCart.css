@@ -1,0 +1,176 @@
+/* AddToCart.css */
+
+/* Cart container */
+.cart-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Cart header */
+.cart-header {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Individual item container */
+.item-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* Item image */
+.item-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  margin-right: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Item details */
+.item-details {
+  flex: 1;
+}
+
+/* Item name */
+.item-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Item price */
+.item-price {
+  font-size: 14px;
+  color: #888;
+}
+
+/* Quantity container */
+.quantity-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Quantity buttons */
+.quantity-button {
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.quantity-button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Quantity value */
+.quantity-value {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+/* Color container */
+.color-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Color box */
+.color-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+/* Color buttons */
+.color-button {
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.color-button:hover {
+  transform: scale(1.1);
+}
+
+/* Buy now button */
+.buy-now-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 20px;
+}
+
+.buy-now-button:hover {
+  background-color: #0056b3;
+}
+
+/* Remove button */
+.remove-button {
+  font-size: 14px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.remove-button:hover {
+  background-color: #c00;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 600px) {
+  /* For devices with a screen width of 600px or less */
+  .cart-container {
+      padding: 10px;
+  }
+
+  .item-image {
+      width: 150px;
+      height: 150px;
+  }
+
+  .item-details {
+      flex-direction: column;
+  }
+
+  .quantity-container,
+  .color-container {
+      flex-direction: column;
+  }
+
+  .quantity-value {
+      margin: 5px 0;
+  }
+
+  .remove-button {
+      font-size: 12px;
+      padding: 3px 8px;
+  }
+}

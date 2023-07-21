@@ -1,0 +1,50 @@
+.footer{
+    background-color: rgb(216, 222, 225);
+    margin: auto;
+    width: 90%;
+    height: 250px;
+    margin-top: 50px;
+    padding: 30px;
+ 
+}
+.footerhead{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.footertitle{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.desc{
+    font-size: 13;
+    font-weight: 200;
+}
+.desc {
+    position: relative;
+  
+}
+
+.desc:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s;
+}
+
+.desc:hover:after {
+    width: 70%;
+}
+@media (max-width:500px) {
+    .footer{
+        display: none;
+    }
+    .footerhead{
+        display: none;
+    }
+    
+}

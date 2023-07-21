@@ -1,0 +1,51 @@
+.custom-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.custom-dot.slick-active {
+  background-color: #ff0000;
+}
+.carouseltwocontainer {
+  width: 90%;
+
+  margin: auto;
+}
+.carouseltwohead {
+  width: 100%;
+
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  border-top: 0.5px solid black;
+  padding-bottom: 20px;
+}
+.carouseltwotitle {
+  font-size: 30px;
+  letter-spacing: 2;
+  margin-top: 30px;
+}
+
+@media (max-width: 500px) {
+  .carouseltwocontainer {
+    width: 100%;
+    margin-top: 00px;
+  }
+  .carouseltwohead {
+    font-size: 13px;
+    text-align: center;
+  }
+  .carouseltwotitle {
+    font-size: 20px;
+  }
+}

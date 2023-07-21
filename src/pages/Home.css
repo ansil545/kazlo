@@ -1,0 +1,8 @@
+@media (max-width: 500px) {
+  .home {
+    position: relative;
+
+    overflow-x: hidden;
+    width: 100%;
+  }
+}

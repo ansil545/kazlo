@@ -1,0 +1,34 @@
+/* Secondintro.css */
+
+.secondintro {
+  /* Add any specific container styles here if needed */
+  width: 90%;
+  margin: auto;
+}
+
+.colored-background {
+  background-color: beige; /* Replace with your desired background color */
+  padding: 20px; /* Adjust the padding to your preference */
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-container img {
+  width: 300px; /* Adjust the width to your desired value */
+  height: 200px; /* Adjust the height to your desired value */
+  object-fit: cover; /* Ensures images maintain their aspect ratio */
+  margin-right: 10px; /* Adjust the gap between images as per your preference */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column; /* Stack images vertically on screens <= 768px wide */
+  }
+  .secondintro{
+    overflow-x: hidden;
+  }
+}

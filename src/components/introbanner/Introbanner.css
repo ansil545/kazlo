@@ -1,0 +1,28 @@
+.introbanner {
+  width: 90%;
+  margin: auto;
+  margin-top: 25px;
+  align-items: center;
+  display: flex;
+}
+
+.introimg,
+.secndimg {
+  width: 50%;
+  object-fit: contain;
+}
+
+@media (max-width: 500px) {
+  .introbanner {
+    flex-direction: column; 
+
+    margin-bottom: 30px;
+
+   
+  }
+
+  .introimg,
+  .secndimg {
+    width: 100%;
+  }
+}

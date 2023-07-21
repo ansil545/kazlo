@@ -1,0 +1,18 @@
+.footerbannercontainer{
+    margin: auto;
+    width: 90%;
+}
+.bannerimg{
+    width: 100%;
+}
+
+@media (max-width:500px) {
+   .footerbannercontainer{
+    width: 100%;
+   } 
+   .bannerimg{
+    width: 100%;
+   
+
+   }
+}

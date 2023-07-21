@@ -1,0 +1,41 @@
+/* Default styles for .bannerhead and ul li */
+.bannerhead {
+
+  background-color: aqua;
+    margin: auto;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  
+  ul li {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  /* Media Queries for Responsive Design */
+  /* @media (max-width: 768px) { */
+    /* Adjust the styles for smaller screens */
+    /* .bannerhead {
+      width: 100%;
+      justify-content: center;
+      display: none;
+    } */
+    
+    /* ul li {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+     */
+    /* If you want to apply specific styles to individual list items within the ul li, you can do it like this */
+    /* ul li li {
+      margin: 5px; /* Add spacing between the list items */
+    /* } */
+  /* } */
+  @media (max-width:500px) {
+    .bannerhead{
+      display: none;
+    }
+    
+  }

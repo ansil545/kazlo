@@ -1,0 +1,95 @@
+/* Common styles for both large and small screens */
+/* .thirdintro {
+  width: 90%;
+  margin: auto;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.gif-container {
+  display: flex;
+  overflow: hidden;
+}
+
+.gif-wrapper {
+  display: flex;
+  animation: slideRightToLeft 60s linear infinite;
+}
+
+.gif {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+} */
+
+.buttoncontainer {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttontitle {
+  font-size: 30px;
+  letter-spacing: 3;
+}
+
+.buttonhead {
+  width: 500px;
+}
+
+.buttondiv {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.btn {
+  padding: 7px;
+  width: 200px;
+  background-color: white;
+  border: 1px solid; /* Added a value for border */
+  outline: none;
+  border-radius: 30px; /* Added "px" unit to border-radius */
+}
+
+.btn:hover {
+  background-color: lightblue;
+}
+
+/* Media Query for small screens with maximum width of 500px */
+@media (max-width: 500px) {
+  .thirdintro {
+ 
+  width: 100%;
+  margin-top: 20px;
+  }
+  .buttontitle{
+    margin-top: 20px;
+    font-size: 17px;
+ 
+    display: flex;
+  justify-content: center;
+  }
+ 
+  .buttondiv{
+  
+    display: flex;
+    justify-content: center;
+    width: 96%;
+  }
+
+  /* Adjust other styles for small screens here if needed */
+}
